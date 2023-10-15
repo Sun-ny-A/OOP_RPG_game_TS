@@ -1,4 +1,5 @@
 import Character from './character'
+import {Attack, Defense} from './interface'
 
 export default class Knight extends Character{
     static className = 'Knight'
