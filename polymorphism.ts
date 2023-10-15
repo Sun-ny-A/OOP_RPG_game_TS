@@ -14,9 +14,9 @@ const characters: Character[] = [
     new Archer('Bowman', 'Arjuna'),
     new Archer('Master Bowman', 'Arjuna'),
     new Archer('Grand Master', 'Arjuna'),
-    new Peon('title1', 'Peon1'),
-    new Peon('title2', 'Peon2'),
-    new Peon('title3', 'Peon3') //don't understand that a peon is
+    new Peon('Level1', 'Peon1'),
+    new Peon('Level2', 'Peon2'),
+    new Peon('Level3', 'Peon3')
 ]
 
 for( const character of characters ) {

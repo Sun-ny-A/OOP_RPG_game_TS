@@ -1,6 +1,7 @@
 import Character from './character'
+import {Attack, Defense} from './interface'
 
-export default class Orge extends Character{
+export default class Orge extends Character implements Attack, Defense {
     static className = 'Orge'
     
     constructor(title: string, name: string){

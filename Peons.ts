@@ -1,4 +1,6 @@
 import Character from './character'
+import {Attack, Defense} from './interface'
+
 
 export default class Peon extends Character{
     static className = 'Peon'

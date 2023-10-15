@@ -3,7 +3,7 @@ interface Defense{
 }
 
 interface Attack{
-    defense():void
+    attack():void
 }
   
 interface Gold {
